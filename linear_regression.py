@@ -28,6 +28,6 @@ slope = model.coef_                                 #slope of linear regression 
 intercept = model.intercept_                        #intercept of linear regression model line
 print("slope: ",slope, "intercept: ",intercept)
 
-#plt.scatter(diabetes_Y_train,diabetes_X_train)      #graphical repr. of linear regr. model points
-#plt.plot(diabetes_Y_train,diabetes_X_train)         #line
-#plt.show()
+plt.scatter(diabetes_Y_train,diabetes_X_train)      #graphical repr. of linear regr. model points
+plt.plot(diabetes_Y_train,diabetes_X_train)         #line
+plt.show()
